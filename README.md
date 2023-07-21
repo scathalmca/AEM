@@ -16,16 +16,32 @@ AEM requires a starting geometry from the user in order to automate geometries. 
 2) GND plane surrounding MKID (see below for specific details on GND plane)
 3) General boxed area for interdigitated capacitor.
 
+IMPORTANT GEOMETRY REQUIREMENTS:
+It is important that the side polygons for the interdigitated capacitor area are exactly equal in the Y co-ordinate. 
+For example:
+AEM will not work correctly if the left side capacitor polygon is Y=100 and the right polygon is Y=100.0001.
+
 All other aspects of the MKID is up to the user (i.e. Lumped inductor, distributed inductor, antenna, etc), as automation only concerns the GND plane and interdigitated capacitor.
 
 Step 2)
 Within the starting geometry settings in Sonnet, have the following settings on:
+
 1) Export .csv file to same project folder as geometry file in format mag and phase or 
 
-2) Select "Auto Run" 
+2) Select "Auto Run" in the em Engine window where simulations run.
 
-3) (Optional but preferred) Select...
+3) (Optional but preferred) Select "Enhanced Resonance Detection" and "Q-Factor Accuracy" under the "Advanced Settings" dialog box.
 
-4) 
+4) Remove any existing parameter sweep options in the geometry file.
+
+Any existing frequency sweeps or file export settings will be removed and reset within AEM.
+
+Step 3)
+Open the GUI, and import the starting geometry file.
+
+Step 4)
+Select the X1, Y1, X2 and Y2 coordinates of the box in the GND plane which the MKID sits in and type them into the corresponding dialog boxes. It does not matter which X coordinate is X1 or X2 and vice versa for the Y coordinates. 
+If the above steps and recommendations were correct, the GUI and starting geometry should look similar to below:
 
 ![Screenshot (1)](https://github.com/scathalmca/AEM/assets/92909628/929909c7-3720-4ab4-a083-a9f8aabc4fc3)
+
