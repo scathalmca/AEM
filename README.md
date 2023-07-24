@@ -9,7 +9,7 @@ The installer package will install AEM as an app in the MatLab GUI.
 
 AEM is easy to use but it is important to follow the steps and recommendations below for AEM to work correctly.  
 
-AEM is still early Alpha and will construct MKID pixels in most general cases.  
+AEM is still early Alpha and will construct MKID pixels in most general cases for accurate resonant frequencies and coupling Quality Factor.  
 
 It should also be noted that AEM will only work correctly on single resonant frequency pixels containing a single dip in the |S21| parameter.  
 
