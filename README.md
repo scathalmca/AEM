@@ -23,6 +23,7 @@ AEM requires a starting geometry from the user in order to automate geometries. 
 3) General boxed area for interdigitated capacitor.
 
 **IMPORTANT GEOMETRY REQUIREMENTS:**
+Make sure the GND ports (-1) are attached to the GND bridge polygon between the Feedline and MKID. The side GND plane polygons must not overlap the GND Bridge polygon for parameterization.
 It is important that the side polygons for the interdigitated capacitor area are exactly equal in the Y co-ordinate.  
 
 **For example:**. 
