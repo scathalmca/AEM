@@ -1,0 +1,31 @@
+ cff-version: 1.2.0
+message: "If you use this software, please cite the author as shown below."
+authors:
+- family-names: "McAleer"
+  given-names: "Cáthal"
+  orcid: "https://orcid.org/0000-0002-6772-2740"
+- family-names: "Creaner"
+  given-names: "Oisin"
+  orcid: "https://orcid.org/0000-0002-1080-0090"
+
+   
+- family-names: "Bracken"
+  given-names: "Colm"
+  orcid: "https://orcid.org/0000-0002-0773-7721"
+
+- family-names: "Ulbricht"
+  given-names: "Gerhard"
+  orcid: "https://orcid.org/0000-0002-6497-3763"
+
+- family-names: "De Lucia"
+  given-names: "Mario"
+  orcid: "https://orcid.org/0000-0002-0519-9149"
+
+- family-names: "Piercy"
+  given-names: "Jack"
+  orcid: "https://orcid.org/0000-0003-4023-5122"
+   
+title: "AEM-Automated Electromagnetic MKID Simulations"
+version: 1.0.0
+date-released: 2023-07-20
+url: "https://github.com/scathalmca/AEM/"
