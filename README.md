@@ -1,6 +1,9 @@
 # AEM
 ## AEM-Automated Electromagnetic MKID Simulations. 
 
+# **This is the old version of AEM Lk and my contain many bugs, errors and crashes. Please see AEM Lk v2 for an updated version of the code. Thanks :)**
+
+
 
 AEM is an app developed for the automation of construction and simulation of MKID pixels using MatLab, the EM simulation software: Sonnet and SonnetLab. This work was done in collaboration between Maynooth University, Dublin Institute for Advanced Studies and Dublin City University, Ireland.  
 
